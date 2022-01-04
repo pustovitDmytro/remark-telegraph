@@ -1,5 +1,5 @@
 {
-  "name": "npm-boilerplate",
+  "name": "remark-telegraph",
   "version": "0.0.1",
   "description": "boilerplate for creating npm packages",
   "main": "./lib",
@@ -20,17 +20,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pustovitDmytro/npm-boilerplate.git"
+    "url": "https://github.com/pustovitDmytro/remark-telegraph.git"
   },
   "author": "Dmytro Pustovit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pustovitDmytro/npm-boilerplate/issues"
+    "url": "https://github.com/pustovitDmytro/remark-telegraph/issues"
   },
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://github.com/pustovitDmytro/npm-boilerplate#readme",
+  "homepage": "https://github.com/pustovitDmytro/remark-telegraph#readme",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
@@ -74,8 +74,13 @@
     "mocha-junit-reporter": "^2.0.2",
     "node-package-tester": "^1.1.24",
     "nyc": "^15.1.0",
+    "remark-parse": "^9.0.0",
     "semantic-release": "^18.0.0",
     "semantic-release-telegram": "^1.2.16",
+    "unified": "^9.2.2",
     "uuid": "^8.3.2"
+  },
+  "dependencies": {
+    "myrmidon": "^1.6.1"
   }
 }

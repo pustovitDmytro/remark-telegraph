@@ -1,0 +1,890 @@
+[
+    {
+        "tag": "h3",
+        "children": [
+            "h1 Heading 8-)"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "h2 Heading"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "h3 Heading"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "h4 Heading"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "h5 Heading"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "h6 Heading"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "Horizontal Rules"
+        ]
+    },
+    {},
+    {},
+    {},
+    {
+        "tag": "h4",
+        "children": [
+            "Typographic replacements"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Enable typographer option to see result."
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "(c) (C) (r) (R) (tm) (TM) (p) (P) +-"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "test.. test... test..... test?..... test!...."
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "!!!!!! ???? ,,  -- ---"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "\"Smartypants, double quotes\" and 'single quotes'"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "Emphasis"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            {
+                "tag": "strong",
+                "children": [
+                    "This is bold text"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            {
+                "tag": "strong",
+                "children": [
+                    "This is bold text"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            {
+                "children": [
+                    "This is italic text"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            {
+                "children": [
+                    "This is italic text"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "~~Strikethrough~~"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "Blockquotes"
+        ]
+    },
+    {
+        "children": [
+            {
+                "tag": "p",
+                "children": [
+                    "Blockquotes can also be nested..."
+                ]
+            },
+            {
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "...by using additional greater-than signs right next to each other..."
+                        ]
+                    },
+                    {
+                        "children": [
+                            {
+                                "tag": "p",
+                                "children": [
+                                    "...or with spaces between arrows."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "Lists"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Unordered"
+        ]
+    },
+    {
+        "tag": "ul",
+        "children": [
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "Create a list by starting a line with ",
+                            {},
+                            ", ",
+                            {},
+                            ", or ",
+                            {}
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "Sub-lists are made by indenting 2 spaces:"
+                        ]
+                    },
+                    {
+                        "tag": "ul",
+                        "children": [
+                            {
+                                "tag": "li",
+                                "children": [
+                                    {
+                                        "tag": "p",
+                                        "children": [
+                                            "Marker character change forces new list start:"
+                                        ]
+                                    },
+                                    {
+                                        "tag": "ul",
+                                        "children": [
+                                            {
+                                                "tag": "li",
+                                                "children": [
+                                                    {
+                                                        "tag": "p",
+                                                        "children": [
+                                                            "Ac tristique libero volutpat at"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "ul",
+                                        "children": [
+                                            {
+                                                "tag": "li",
+                                                "children": [
+                                                    {
+                                                        "tag": "p",
+                                                        "children": [
+                                                            "Facilisis in pretium nisl aliquet"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "tag": "ul",
+                                        "children": [
+                                            {
+                                                "tag": "li",
+                                                "children": [
+                                                    {
+                                                        "tag": "p",
+                                                        "children": [
+                                                            "Nulla volutpat aliquam velit"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "Very easy!"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Ordered"
+        ]
+    },
+    {
+        "tag": "ol",
+        "children": [
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "Lorem ipsum dolor sit amet"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "Consectetur adipiscing elit"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "Integer molestie lorem at massa"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "You can use sequential numbers..."
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "...or keep all the numbers as ",
+                            {}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Start numbering with offset:"
+        ]
+    },
+    {
+        "tag": "ol",
+        "children": [
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "foo"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "bar"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "Code"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Inline ",
+            {}
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Indented code"
+        ]
+    },
+    {
+        "tag": "code",
+        "children": "// Some comments\nline 1 of code\nline 2 of code\nline 3 of code"
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Block code \"fences\""
+        ]
+    },
+    {
+        "tag": "code",
+        "children": "Sample text here..."
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Syntax highlighting"
+        ]
+    },
+    {
+        "tag": "code",
+        "children": "const foo = function (bar) {\n    return bar++;\n};\n\nconsole.log(foo(5));"
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "Tables"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "| Option | Description |\n| ------ | ----------- |\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Right aligned columns"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "| Option | Description |\n| ------:| -----------:|\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "Links"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "http://dev.nodeca.com"
+                },
+                "children": [
+                    "link text"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "http://nodeca.github.io/pica/demo/"
+                },
+                "children": [
+                    "link with title"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Autoconverted link https://github.com/nodeca/pica (enable linkify to see)"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            "Images"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            {
+                "tag": "img",
+                "attrs": {
+                    "href": "https://octodex.github.com/images/minion.png"
+                }
+            },
+            "\n",
+            {
+                "tag": "img",
+                "attrs": {
+                    "href": "https://octodex.github.com/images/stormtroopocat.jpg"
+                }
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Like links, Images also have a footnote style syntax"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            {}
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "With a reference later in the document defining the URL location:"
+        ]
+    },
+    {},
+    {
+        "tag": "h4",
+        "children": [
+            "Plugins"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "The killer feature of ",
+            {},
+            " is very effective support of\n",
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://www.npmjs.org/browse/keyword/markdown-it-plugin"
+                },
+                "children": [
+                    "syntax plugins"
+                ]
+            },
+            "."
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-emoji"
+                },
+                "children": [
+                    "Emojies"
+                ]
+            }
+        ]
+    },
+    {
+        "children": [
+            {
+                "tag": "p",
+                "children": [
+                    "Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:"
+                ]
+            },
+            {
+                "tag": "p",
+                "children": [
+                    "Shortcuts (emoticons): :-) :-( 8-) ;)"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "see ",
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-emoji#change-output"
+                },
+                "children": [
+                    "how to change output"
+                ]
+            },
+            " with twemoji."
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-sub"
+                },
+                "children": [
+                    "Subscript"
+                ]
+            },
+            " / ",
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-sup"
+                },
+                "children": [
+                    "Superscript"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "ul",
+        "children": [
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "19^th^"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tag": "li",
+                "children": [
+                    {
+                        "tag": "p",
+                        "children": [
+                            "H~2~O"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-ins"
+                },
+                "children": [
+                    "<ins>"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "++Inserted text++"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-mark"
+                },
+                "children": [
+                    "<mark>"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "==Marked text=="
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-footnote"
+                },
+                "children": [
+                    "Footnotes"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Footnote 1 link[^first]."
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Footnote 2 link[^second]."
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Inline footnote^[Text of inline footnote] definition."
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Duplicated footnote reference[^second]."
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "[^first]: Footnote ",
+            {
+                "tag": "strong",
+                "children": [
+                    "can have markup"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "code",
+        "children": "and multiple paragraphs."
+    },
+    {
+        "tag": "p",
+        "children": [
+            "[^second]: Footnote text."
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-deflist"
+                },
+                "children": [
+                    "Definition lists"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Term 1"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            ":   Definition 1\nwith lazy continuation."
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Term 2 with ",
+            {
+                "children": [
+                    "inline markup"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            ":   Definition 2"
+        ]
+    },
+    {
+        "tag": "code",
+        "children": "    { some code, part of Definition 2 }\n\nThird paragraph of definition 2."
+    },
+    {
+        "tag": "p",
+        "children": [
+            {
+                "children": [
+                    "Compact style:"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Term 1\n~ Definition 1"
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "Term 2\n~ Definition 2a\n~ Definition 2b"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-abbr"
+                },
+                "children": [
+                    "Abbreviations"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "This is HTML abbreviation example."
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "It converts \"HTML\", but keep intact partial entries like \"xxxHTMLyyy\" and so on."
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "*[HTML]: Hyper Text Markup Language"
+        ]
+    },
+    {
+        "tag": "h4",
+        "children": [
+            {
+                "tag": "a",
+                "attrs": {
+                    "href": "https://github.com/markdown-it/markdown-it-container"
+                },
+                "children": [
+                    "Custom containers"
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "p",
+        "children": [
+            "::: warning\n",
+            {
+                "children": [
+                    "here be dragons"
+                ]
+            },
+            "\n:::"
+        ]
+    }
+]

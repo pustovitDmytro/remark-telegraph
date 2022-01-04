@@ -1,5 +1,5 @@
-# npm-boilerplate
-Boilerplate for creating npm packages.
+# remark-telegraph
+[remark](https://github.com/remarkjs/remark) plugin to translate markdown into [Telegra.ph Nodes](https://telegra.ph/api#Node).
 
 [![Version][badge-vers]][npm]
 [![Bundle size][npm-size-badge]][npm-size-url]
@@ -22,11 +22,16 @@ Boilerplate for creating npm packages.
 [![License][badge-lic]][github]
 
 ## Table of Contents
+  - [Motivation](#motivation)
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribute](#contribute)
 
+## Motivation
+
+[Telegraph Api](https://telegra.ph/api) demands a page content to be represented as array of [Node](https://telegra.ph/api#Node).
+In case [markdown](https://www.markdownguide.org/getting-started/) works better for you, **remark-telegraph** plugin could be a cure. It is an [remark](https://github.com/remarkjs/remark) plugin, so can be used in combination with the whole [ecosystem](https://github.com/remarkjs/remark/blob/main/doc/plugins.md)
 ## Requirements
 [![Platform Status][appveyor-badge]][appveyor-url]
 
@@ -42,60 +47,81 @@ Package is [continuously tested][appveyor-url] on darwin, linux, win32 platforms
 To install the library run the following command
 
 ```bash
-  npm i --save npm-boilerplate
+  npm i --save remark-telegraph
 ```
 
 ## Usage
 
 ```javascript
+import remarkParse from 'remark-parse';
+import remarkTelegraph from 'remark-telegraph';
+import unified from 'unified';
+
+async function createPage(markdown) {
+    const vFile = unified()
+        .use(remarkParse)
+        .use(remarkTelegraph)
+        .process(markdown);
+
+    const nodes = JSON.parse(vFile.contents);
+
+    console.log('Create Page :', nodes);
+}
 
 ```
+
+**Note:** for `unified>=10` and `remark-parse>=10` *remark* had moved to [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), so for latest versions usage samples may vary a bit.
+
+## Examples
+
+See the example of [markdown-it](tests/examples/markdown-it.md) sample transformation on [telegra.ph](https://telegra.ph/markdown-it-01-04). Check raw nodes in [examples folder](tests/examples/markdown-it.json).
+
 
 ## Contribute
 
 Make the changes to the code and tests. Then commit to your branch. Be sure to follow the commit message conventions. Read [Contributing Guidelines](.github/CONTRIBUTING.md) for details.
 
-[npm]: https://www.npmjs.com/package/npm-boilerplate
-[github]: https://github.com/pustovitDmytro/npm-boilerplate
-[coveralls]: https://coveralls.io/github/pustovitDmytro/npm-boilerplate?branch=master
-[badge-deps]: https://img.shields.io/librariesio/release/npm/npm-boilerplate.svg
-[badge-vers]: https://img.shields.io/npm/v/npm-boilerplate.svg
-[badge-lic]: https://img.shields.io/github/license/pustovitDmytro/npm-boilerplate.svg
-[badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/npm-boilerplate/badge.svg?branch=master
-[url-coverage]: https://coveralls.io/github/pustovitDmytro/npm-boilerplate?branch=master
+[npm]: https://www.npmjs.com/package/remark-telegraph
+[github]: https://github.com/pustovitDmytro/remark-telegraph
+[coveralls]: https://coveralls.io/github/pustovitDmytro/remark-telegraph?branch=master
+[badge-deps]: https://img.shields.io/librariesio/release/npm/remark-telegraph.svg
+[badge-vers]: https://img.shields.io/npm/v/remark-telegraph.svg
+[badge-lic]: https://img.shields.io/github/license/pustovitDmytro/remark-telegraph.svg
+[badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/remark-telegraph/badge.svg?branch=master
+[url-coverage]: https://coveralls.io/github/pustovitDmytro/remark-telegraph?branch=master
 
-[snyk-badge]: https://snyk-widget.herokuapp.com/badge/npm/npm-boilerplate/badge.svg
-[snyk-url]: https://snyk.io/advisor/npm-package/npm-boilerplate
+[snyk-badge]: https://snyk-widget.herokuapp.com/badge/npm/remark-telegraph/badge.svg
+[snyk-url]: https://snyk.io/advisor/npm-package/remark-telegraph
 
-[tests-badge]: https://img.shields.io/circleci/build/github/pustovitDmytro/npm-boilerplate
-[tests-url]: https://app.circleci.com/pipelines/github/pustovitDmytro/npm-boilerplate
+[tests-badge]: https://img.shields.io/circleci/build/github/pustovitDmytro/remark-telegraph
+[tests-url]: https://app.circleci.com/pipelines/github/pustovitDmytro/remark-telegraph
 
-[codefactor-badge]: https://www.codefactor.io/repository/github/pustovitdmytro/npm-boilerplate/badge
-[codefactor-url]: https://www.codefactor.io/repository/github/pustovitdmytro/npm-boilerplate
+[codefactor-badge]: https://www.codefactor.io/repository/github/pustovitdmytro/remark-telegraph/badge
+[codefactor-url]: https://www.codefactor.io/repository/github/pustovitdmytro/remark-telegraph
 
-[commit-activity-badge]: https://img.shields.io/github/commit-activity/m/pustovitDmytro/npm-boilerplate
+[commit-activity-badge]: https://img.shields.io/github/commit-activity/m/pustovitDmytro/remark-telegraph
 
-[scrutinizer-badge]: https://scrutinizer-ci.com/g/pustovitDmytro/npm-boilerplate/badges/quality-score.png?b=master
-[scrutinizer-url]: https://scrutinizer-ci.com/g/pustovitDmytro/npm-boilerplate/?branch=master
+[scrutinizer-badge]: https://scrutinizer-ci.com/g/pustovitDmytro/remark-telegraph/badges/quality-score.png?b=master
+[scrutinizer-url]: https://scrutinizer-ci.com/g/pustovitDmytro/remark-telegraph/?branch=master
 
-[lgtm-lg-badge]: https://img.shields.io/lgtm/grade/javascript/g/pustovitDmytro/npm-boilerplate.svg?logo=lgtm&logoWidth=18
-[lgtm-lg-url]: https://lgtm.com/projects/g/pustovitDmytro/npm-boilerplate/context:javascript
+[lgtm-lg-badge]: https://img.shields.io/lgtm/grade/javascript/g/pustovitDmytro/remark-telegraph.svg?logo=lgtm&logoWidth=18
+[lgtm-lg-url]: https://lgtm.com/projects/g/pustovitDmytro/remark-telegraph/context:javascript
 
-[lgtm-alerts-badge]: https://img.shields.io/lgtm/alerts/g/pustovitDmytro/npm-boilerplate.svg?logo=lgtm&logoWidth=18
-[lgtm-alerts-url]: https://lgtm.com/projects/g/pustovitDmytro/npm-boilerplate/alerts/
+[lgtm-alerts-badge]: https://img.shields.io/lgtm/alerts/g/pustovitDmytro/remark-telegraph.svg?logo=lgtm&logoWidth=18
+[lgtm-alerts-url]: https://lgtm.com/projects/g/pustovitDmytro/remark-telegraph/alerts/
 
-[codacy-badge]: https://app.codacy.com/project/badge/Grade/8667aa23afaa4725854f098c4b5e8890
-[codacy-url]: https://www.codacy.com/gh/pustovitDmytro/npm-boilerplate/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pustovitDmytro/npm-boilerplate&amp;utm_campaign=Badge_Grade
+[codacy-badge]: https://app.codacy.com/project/badge/Grade/121e3d1247b64010a5be0d4e3b587a3c
+[codacy-url]: https://www.codacy.com/gh/pustovitDmytro/remark-telegraph/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pustovitDmytro/remark-telegraph&amp;utm_campaign=Badge_Grade
 
-[sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_npm-boilerplate&metric=alert_status
-[sonarcloud-url]: https://sonarcloud.io/dashboard?id=pustovitDmytro_npm-boilerplate
+[sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_remark-telegraph&metric=alert_status
+[sonarcloud-url]: https://sonarcloud.io/dashboard?id=pustovitDmytro_remark-telegraph
 
-[npm-downloads-badge]: https://img.shields.io/npm/dw/npm-boilerplate
-[npm-size-badge]: https://img.shields.io/bundlephobia/min/npm-boilerplate
-[npm-size-url]: https://bundlephobia.com/result?p=npm-boilerplate
+[npm-downloads-badge]: https://img.shields.io/npm/dw/remark-telegraph
+[npm-size-badge]: https://img.shields.io/bundlephobia/min/remark-telegraph
+[npm-size-url]: https://bundlephobia.com/result?p=remark-telegraph
 
 [appveyor-badge]: https://ci.appveyor.com/api/projects/status/lik73h3vxd7687pr/branch/master?svg=true
-[appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/npm-boilerplate/branch/master
+[appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/remark-telegraph/branch/master
 
-[fossa-badge]: https://app.fossa.com/api/projects/custom%2B24828%2Fnpm-boilerplate.svg?type=shield
-[fossa-url]: https://app.fossa.com/projects/custom%2B24828%2Fnpm-boilerplate?ref=badge_shield
+[fossa-badge]: https://app.fossa.com/api/projects/custom%2B24828%2Fremark-telegraph.svg?type=shield
+[fossa-url]: https://app.fossa.com/projects/custom%2B24828%2Fremark-telegraph?ref=badge_shield

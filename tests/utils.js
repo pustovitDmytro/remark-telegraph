@@ -1,4 +1,6 @@
 import path from 'path';
+import remarkParse from 'remark-parse';
+import unified from 'unified';
 import { entry } from './constants';
 
 export function load(relPath, clearCache) {
@@ -15,4 +17,17 @@ export function load(relPath, clearCache) {
 
 export function resolve(relPath) {
     return require.resolve(path.join(entry, relPath));
+}
+
+export class PluginTester {
+    constructor(plugin) {
+        this.plugin = plugin;
+    }
+
+    async getContent(markdown) {
+        return unified()
+            .use(remarkParse)
+            .use(this.plugin)
+            .process(markdown);
+    }
 }
