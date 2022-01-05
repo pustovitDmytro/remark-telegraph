@@ -1,4 +1,9 @@
 {
     "dir": "tmp/package-tests",
-    "copyDefaultFiles": true
+    "copy": [
+        [ "tests/init.js",  "tests-init.js" ],
+        [ "tests/examples", "examples" ]
+    ],
+    "copyDefaultFiles": true,
+    "modules": [ "fs-extra" ]
 }
