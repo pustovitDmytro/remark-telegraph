@@ -1,1 +1,2 @@
 !.dangerfile.js
+tests/examples/*
