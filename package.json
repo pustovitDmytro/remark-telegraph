@@ -1,8 +1,15 @@
 {
   "name": "remark-telegraph",
   "version": "1.0.0",
-  "description": "boilerplate for creating npm packages",
+  "description": "remark plugin to translate markdown into Telegra.ph Nodes",
   "main": "./lib",
+  "keywords": [
+    "telegra.ph",
+    "telegraph",
+    "markdown",
+    "remark",
+    "remark-plugin"
+  ],
   "scripts": {
     "prepare": "babel src --out-dir ./lib --copy-files && husky install",
     "coveralls": "cat ./reports/coverage/lcov.info | coveralls",
