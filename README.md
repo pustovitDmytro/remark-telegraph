@@ -58,7 +58,7 @@ import remarkTelegraph from 'remark-telegraph';
 import unified from 'unified';
 
 async function createPage(markdown) {
-    const vFile = unified()
+    const vFile = await unified()
         .use(remarkParse)
         .use(remarkTelegraph)
         .process(markdown);
@@ -70,7 +70,7 @@ async function createPage(markdown) {
 
 ```
 
-**Note:** for `unified>=10` and `remark-parse>=10` *remark* had moved to [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), so for latest versions usage samples may vary a bit.
+**Note:** for `unified>=10` and `remark-parse>=10` *remark* had been moved to [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules). So for the latest versions, usage samples may vary a bit.
 
 ## Examples
 
