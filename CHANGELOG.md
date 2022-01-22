@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/pustovitDmytro/remark-telegraph/compare/v1.0.0...v1.0.1) (2022-01-05)
+
+
+### Docs
+
+* adds keywords ([21acdf0](https://github.com/pustovitDmytro/remark-telegraph/commit/21acdf08620404c252655808a8518ec1d4d5b386))
+* adds mising await to usage sample ([535b768](https://github.com/pustovitDmytro/remark-telegraph/commit/535b7685d7ce8dff134f855ca7ab49ae59ecf6f0))
+
 # 1.0.0 (2022-01-05)
 
 
