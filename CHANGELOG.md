@@ -1,3 +1,20 @@
+## [1.0.2](https://github.com/pustovitDmytro/remark-telegraph/compare/v1.0.1...v1.0.2) (2022-01-22)
+
+
+### Chore
+
+* adds telegra.ph release notes ([aa811a5](https://github.com/pustovitDmytro/remark-telegraph/commit/aa811a517e60cfdf194191a4f7629773e3b4ccc8))
+* calc fossa results in cirrus ([b2b48c1](https://github.com/pustovitDmytro/remark-telegraph/commit/b2b48c149377cdfc6395e35b44d523ad73c370f7))
+* fixes some npm audit vulnerabilities ([9330c38](https://github.com/pustovitDmytro/remark-telegraph/commit/9330c3847084d753e1c1969bc96f109c67e7e847))
+* fixes some npm audit vulnerabilities ([f7a14d5](https://github.com/pustovitDmytro/remark-telegraph/commit/f7a14d5d00fb5aa6f2e5a02069958114562ba185))
+* Lock file maintenance (#8) ([557b68a](https://github.com/pustovitDmytro/remark-telegraph/commit/557b68afaedbd6df74b9760cd4a8ae601b6b6729)), closes [#8](https://github.com/pustovitDmytro/remark-telegraph/issues/8)
+* replace appveyor to actions ([13aff75](https://github.com/pustovitDmytro/remark-telegraph/commit/13aff75ca141f20997a700b138db61836cff06b5))
+* upgrade semantic-release to v.19 [security] ([0888454](https://github.com/pustovitDmytro/remark-telegraph/commit/08884548499894d6a5298a1be3d107defce5c419))
+
+### Docs
+
+* update year in license ([e2dec02](https://github.com/pustovitDmytro/remark-telegraph/commit/e2dec024ae5885cd6c4a41d68b3a2ad910a2c7ea))
+
 ## [1.0.1](https://github.com/pustovitDmytro/remark-telegraph/compare/v1.0.0...v1.0.1) (2022-01-05)
 
 

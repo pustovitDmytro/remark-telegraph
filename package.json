@@ -1,6 +1,6 @@
 {
   "name": "remark-telegraph",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "remark plugin to translate markdown into Telegra.ph Nodes",
   "main": "./lib",
   "keywords": [
