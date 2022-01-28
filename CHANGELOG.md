@@ -1,3 +1,15 @@
+## [1.0.3](https://github.com/pustovitDmytro/remark-telegraph/compare/v1.0.2...v1.0.3) (2022-01-28)
+
+
+### Chore
+
+* Lock file maintenance (#12) ([2bcdb21](https://github.com/pustovitDmytro/remark-telegraph/commit/2bcdb216f397fa2301e2b21b863ea64115aff121)), closes [#12](https://github.com/pustovitDmytro/remark-telegraph/issues/12)
+* Lock file maintenance (#14) ([5621eae](https://github.com/pustovitDmytro/remark-telegraph/commit/5621eaeb188b0a919279a19b2b4aaf13bba3f133)), closes [#14](https://github.com/pustovitDmytro/remark-telegraph/issues/14)
+
+### Upgrade
+
+* Update dependency myrmidon to v1.7.1 (#15) ([7f926a0](https://github.com/pustovitDmytro/remark-telegraph/commit/7f926a0eac8afa8a215b4734da39e843066311be)), closes [#15](https://github.com/pustovitDmytro/remark-telegraph/issues/15)
+
 ## [1.0.2](https://github.com/pustovitDmytro/remark-telegraph/compare/v1.0.1...v1.0.2) (2022-01-22)
 
 
