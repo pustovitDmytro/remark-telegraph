@@ -1,3 +1,14 @@
+## [1.0.4](https://github.com/pustovitDmytro/remark-telegraph/compare/v1.0.3...v1.0.4) (2022-02-04)
+
+
+### Chore
+
+* fixes some npm audit vulnerabilities (#17) ([ffb2b96](https://github.com/pustovitDmytro/remark-telegraph/commit/ffb2b9604157fd4022cd51028dea6fd48736c744)), closes [#17](https://github.com/pustovitDmytro/remark-telegraph/issues/17)
+
+### Upgrade
+
+* Update dependency myrmidon to v1.7.2 (#19) ([8255788](https://github.com/pustovitDmytro/remark-telegraph/commit/8255788bce1569903335732e3e159758c74b60ca)), closes [#19](https://github.com/pustovitDmytro/remark-telegraph/issues/19)
+
 ## [1.0.3](https://github.com/pustovitDmytro/remark-telegraph/compare/v1.0.2...v1.0.3) (2022-01-28)
 
 
