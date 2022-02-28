@@ -1,3 +1,14 @@
+## [1.0.5](https://github.com/pustovitDmytro/remark-telegraph/compare/v1.0.4...v1.0.5) (2022-02-28)
+
+
+### Chore
+
+* Lock file maintenance (#21) ([2755c6f](https://github.com/pustovitDmytro/remark-telegraph/commit/2755c6f37a94e6554629a72fa6f76f1731aa34f1)), closes [#21](https://github.com/pustovitDmytro/remark-telegraph/issues/21)
+
+### Docs
+
+* help Ukraine 🇺🇦 ([7d0556d](https://github.com/pustovitDmytro/remark-telegraph/commit/7d0556d5eb32fad4c542499a21ab2a4f9c3b04b8))
+
 ## [1.0.4](https://github.com/pustovitDmytro/remark-telegraph/compare/v1.0.3...v1.0.4) (2022-02-04)
 
 
