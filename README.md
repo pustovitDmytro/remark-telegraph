@@ -8,8 +8,6 @@
 [![CodeFactor][codefactor-badge]][codefactor-url]
 [![SonarCloud][sonarcloud-badge]][sonarcloud-url]
 [![Codacy][codacy-badge]][codacy-url]
-[![Total alerts][lgtm-alerts-badge]][lgtm-alerts-url]
-[![Language grade][lgtm-lg-badge]][lgtm-lg-url]
 [![Scrutinizer][scrutinizer-badge]][scrutinizer-url]
 
 [![Dependencies][badge-deps]][npm]
@@ -20,6 +18,7 @@
 [![Commit activity][commit-activity-badge]][github]
 [![FOSSA][fossa-badge]][fossa-url]
 [![License][badge-lic]][github]
+[![Made in Ukraine][ukr-badge]][ukr-link]
 
 # 🇺🇦 Help Ukraine
 I woke up on my 26th birthday at 5 am from the blows of russian missiles. They attacked the city of Kyiv, where I live, as well as the cities in which my family and friends live. Now my country is a war zone. 
@@ -30,6 +29,9 @@ I am stopping any support of my packages by the time until all russians leave my
 💛💙  Help Ukraine! We need your support! There are dozen ways to help us, just do it!
 
 ## Table of Contents
+- [remark-telegraph](#remark-telegraph)
+- [🇺🇦 Help Ukraine](#-help-ukraine)
+  - [Table of Contents](#table-of-contents)
   - [Motivation](#motivation)
   - [Requirements](#requirements)
   - [Installation](#installation)
@@ -134,3 +136,6 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 
 [fossa-badge]: https://app.fossa.com/api/projects/custom%2B24828%2Fremark-telegraph.svg?type=shield
 [fossa-url]: https://app.fossa.com/projects/custom%2B24828%2Fremark-telegraph?ref=badge_shield
+
+[ukr-badge]: https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7
+[ukr-link]: https://war.ukraine.ua
